@@ -10,9 +10,7 @@
 | Enterprise   | GitHub Enterprise             | Custom Pricing              | Unlimited Public and Private                                 | Enterprise-Grade Tools         | Custom Minutes (Cloud: 50,000) | SSO, Audit Logs, Compliance Controls | Cloud or On-Premise | Large organizations needing high security and control |
 
 # Github Desktop and Github Mobile
-
-![[Pasted image 20251018235852.png]]
-
+![[github-desktop-mobile.png]]
 # Github Billing structure
 1) Subscription based billing: Github packages
 2) Usage based billing: applies to Github Actions, Github Packages and Github code spaces (usage beyond free minutes)

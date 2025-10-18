@@ -55,8 +55,28 @@ Descriptive and instructive
 - An alternative to using passwords for authentication in the terminal
 - Required since August 2021
 - More secure
+# Issues
+- We can assign someone in issue
+- We can tag people using `@` in issue
+- We can mention other issue using `#`
+- We can comment and qoute reply `>`
+# PR
+* We can assign PR just like issues
+* We can request a reviewer
+* We can restore PR even if it is deleted when merging
+## PR Steps
+1) Select source and destination branch
+2) check the changes and any conflict
+3) Create pull request
+4) Add name and description
+5) Create pull request again
+## PR Review
+- We can add comments in specific lines
 # Notes
 - We can work on private repo by adding collaborator
+	- Comment only
+	- Approve
+	- Request changes
 # Abbreviations
 
 | Short Form | Meaning               |

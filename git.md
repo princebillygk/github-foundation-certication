@@ -25,7 +25,6 @@ The root directory located at the top of working tree
     git init
     ```
     
-
 # The commit structure
 
 1. Commit - meta data - author, log message, commit time
@@ -60,6 +59,19 @@ Shows newest to oldest commits - space to see more, q to quit
 14. `HEAD` : Points to the latest commit on the current branch
 15. `HEAD~n` : Points to the nth commit before HEAD
 16. see diff of a specific file in a specific commit: git diff
+
+# Reverting commit
+1) git revert: Retrives previous commit and creates a new commit to undo the changes
+2) git revert HEAD
+3) --no-edit: Skips the commit message editor
+
+# Revert single file to previous commit
+1) `git checout HEAD~1 -- report.md` but will not create a new commit
+
+# Unstaging a file
+1) `git restore --staged <file-name>`: Unstages a file but keeps changes in working directory
+2) `git restore --staged`: Unstages all files
+
 
 # Git Branches
 

@@ -77,6 +77,33 @@ Descriptive and instructive
 	- Comment only
 	- Approve
 	- Request changes
+
+# Github Projects
+
+# Project board views
+1) Table
+2) Roadmap
+3) Board
+# Github workflows (built-in automation)
+To do all project related automation
+# Github actions
+Things that needs to be run compute engine, repo specific tasks
+
+# Github Enterprise
+# Roles
+- **Read**: View and discuss
+- **Triage**: Manage issues/pull requests
+- **Write**: Push Code
+- **Maintain**: Manage without sensitive actions
+- **Admin**: Full Control
+
+404 means you don't have access
+
+# Notes
+Managing data pipeline require admin access
+- **SAML (Security Assertion markup language) - SSO Single sign-on for all apps
+- If **2fa** is enforced member who haven't enabled it will be removed from the organization and notified via email
+
 # Abbreviations
 
 | Short Form | Meaning               |

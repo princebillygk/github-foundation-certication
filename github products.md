@@ -14,3 +14,24 @@
 # Github Billing structure
 1) Subscription based billing: Github packages
 2) Usage based billing: applies to Github Actions, Github Packages and Github code spaces (usage beyond free minutes)
+
+# Innersource
+Internal privacy (company adapts open source practices but only available internally)
+- Pull template
+- Issue template
+
+# Dependency
+1) Insight -> dependency graph
+2) settings -> Code security ->  enable dependabot  (depndabot automated update and alert for dependency vulnerability)
+# Security.md
+1) Guides security issues reporting
+2) Security Tab -> Policy -> Edit the file with guide line
+	1) Guides users how to report security issues quickly
+# Remove sensitive data from git repo
+1) `git filter-repo`(Detailed, more control)
+2) `BFG Repo-cleaner` (Fast and simple, less control)
+
+# Github Workspace
+Cloud dev environment
+# Github.dev
+Online browser based editor

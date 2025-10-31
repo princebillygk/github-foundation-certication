@@ -43,7 +43,7 @@ Descriptive and instructive
 2) Add file -> Upload files
 3) Upload the file
 4) Add commit message 
-5) Commit Chages
+5) Commit Changes
 
 # Branch rules
 * Rules for specific branches

@@ -42,8 +42,8 @@ Shows newest to oldest commits - space to see more, q to quit
 
 1. git log -n : Show last n commits
 2. git log `file-name`: Show commits that modified the specified file
-3. git log --since='Month day year': Shows commits since the specified date
-4. git log --until='Month day year': Shows commits until the specified date
+3. git log --since='YYYY-MM-DD': Shows commits since the specified date
+4. git log --until='YYYY-MM-DD': Shows commits until the specified date
 5. We can also combine --since and --until to show commits in a specific date range
 6. We can also provide natural language dates like --since='2 weeks ago', '15 July 2024'
 7. Recommended format 'YYYY-MM-DD'
@@ -66,7 +66,7 @@ Shows newest to oldest commits - space to see more, q to quit
 3) --no-edit: Skips the commit message editor
 
 # Revert single file to previous commit
-1) `git checout HEAD~1 -- report.md` but will not create a new commit
+1) `git checkout HEAD~1 -- report.md` but will not create a new commit
 
 # Unstaging a file
 1) `git restore --staged <file-name>`: Unstages a file but keeps changes in working directory
